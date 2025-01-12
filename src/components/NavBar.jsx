@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React, {useState} from 'react'
-import { assets } from '../../assets/assets' 
+import { assets } from '../assets/assets' 
 import { Link, NavLink } from 'react-router-dom'
 
 const NavBar = () => {
@@ -9,7 +9,7 @@ const NavBar = () => {
 
   return (
       <div className='flex items-center justify-between py-5 font-bold'>
-          <img src={assets.logo} className="w-16 h-16"   />
+          <Link to='/'><img src={assets.logo} className="w-16 h-16"/></Link>
 
           <ul className='hidden sm:flex gap-5 text-sm text-gray-700'>
               <NavLink to='/home' className='flex flex-col items-center gap-1 '>
@@ -60,10 +60,10 @@ const NavBar = () => {
                       <img className='h-4 rotate-180' src={assets.dropdown_icon} />
                       <p>Back</p>
                   </div>
-                  <NavLink to='/'>HOME</NavLink>
-                  <NavLink to='/collection'>COLLECTION</NavLink>
-                  <NavLink to='/about'>CONTACT</NavLink>
-                  <NavLink to='/contact'>ABOUT</NavLink>
+                  <NavLink onClick={()=>setVisible(false)} className='py-2 pl-6 border'to='/'>HOME</NavLink>
+                  <NavLink onClick={()=>setVisible(false)} className='py-2 pl-6 border'to='/collection'>COLLECTION</NavLink>
+                  <NavLink onClick={()=>setVisible(false)} className='py-2 pl-6 border'to='/about'>CONTACT</NavLink>
+                  <NavLink onClick={()=>setVisible(false)} className='py-2 pl-6 border'to='/contact'>ABOUT</NavLink>
               </div>
           </div>
 

@@ -1,5 +1,5 @@
 
-
+import p_img4 from'./p_img4.png'
 import logo from './logo.png'
 import hero_img from './hero_img.png'
 import cart_icon from './cart_icon.png'
@@ -43,10 +43,10 @@ export const assets = {
 export const products = [
     {
         _id: "aaaaa",
-        name: "Women Round Neck Cotton Top",
+        name: "Tower Cake",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 100,
-        // image: [p_img1],
+        image: "https://cakesbydarshani.s3.eu-north-1.amazonaws.com/photo1.jpg",
         category: "Women",
         subCategory: "Topwear",
         sizes: ["S", "M", "L"],
@@ -55,10 +55,10 @@ export const products = [
     },
     {
         _id: "aaaab",
-        name: "Men Round Neck Pure Cotton T-shirt",
+        name: "Confetti Cake",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 200,
-        // image: [p_img2_1,p_img2_2,p_img2_3,p_img2_4],
+        image:"https://cakesbydarshani.s3.eu-north-1.amazonaws.com/photo2.jpg",
         category: "Men",
         subCategory: "Topwear",
         sizes: ["M", "L", "XL"],
@@ -70,7 +70,7 @@ export const products = [
         name: "Girls Round Neck Cotton Top",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 220,
-        // image: [p_img3],
+        image: "https://cakesbydarshani.s3.eu-north-1.amazonaws.com/photo3.jpg",
         category: "Kids",
         subCategory: "Topwear",
         sizes: ["S", "L", "XL"],
@@ -82,7 +82,7 @@ export const products = [
         name: "Men Round Neck Pure Cotton T-shirt",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 110,
-        // image: [p_img4],
+        image: 'https://cakesbydarshani.s3.eu-north-1.amazonaws.com/photo4.jpg',
         category: "Men",
         subCategory: "Topwear",
         sizes: ["S", "M", "XXL"],
@@ -94,7 +94,7 @@ export const products = [
         name: "Women Round Neck Cotton Top",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 130,
-        // image: [p_img5],
+        image:"https://cakesbydarshani.s3.eu-north-1.amazonaws.com/photo5.jpg",
         category: "Women",
         subCategory: "Topwear",
         sizes: ["M", "L", "XL"],
@@ -106,7 +106,7 @@ export const products = [
         name: "Girls Round Neck Cotton Top",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 140,
-        // image: [p_img6],
+        image:"https://cakesbydarshani.s3.eu-north-1.amazonaws.com/photo6.jpg",
         category: "Kids",
         subCategory: "Topwear",
         sizes: ["S", "L", "XL"],
@@ -118,7 +118,7 @@ export const products = [
         name: "Men Tapered Fit Flat-Front Trousers",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 190,
-        // image: [p_img7],
+        image:"https://cakesbydarshani.s3.eu-north-1.amazonaws.com/photo7.jpg",
         category: "Men",
         subCategory: "Bottomwear",
         sizes: ["S", "L", "XL"],
@@ -130,7 +130,7 @@ export const products = [
         name: "Men Round Neck Pure Cotton T-shirt",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 140,
-        // image: [p_img8],
+        image:"https://cakesbydarshani.s3.eu-north-1.amazonaws.com/photo8.jpg",
         category: "Men",
         subCategory: "Topwear",
         sizes: ["S", "M", "L", "XL"],
@@ -142,7 +142,7 @@ export const products = [
         name: "Girls Round Neck Cotton Top",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 100,
-        // image: [p_img9],
+        image: "https://cakesbydarshani.s3.eu-north-1.amazonaws.com/photo8.jpg",
         category: "Kids",
         subCategory: "Topwear",
         sizes: ["M", "L", "XL"],

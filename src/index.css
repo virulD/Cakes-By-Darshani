@@ -1,8 +1,35 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 a.active hr{
-  display: block;
-  
+  display: block; 
+}
+/* *{
+  font-family: Outfit;
+} */
+/* 
+.prata-regular {
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+
+.playwrite-au-sa-play {
+  font-family: "Playwrite AU SA", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media(max-width:640px){
+  a.active{
+    background-color: #000000;
+    color: aliceblue;
+  }
 }
